@@ -31,7 +31,7 @@ The tests include running iperf client/server on both sides and running differen
 
 While TCP, 
 - Without wireguard, we were able to acheive a bit-rate of ~12 Gbps
-- With Wireguard - the bit-rate was 2 to 2.62 Gbps
+- With Wireguard - the bit-rate was 2 to 2.62 Gbps (1 to 100 parallel connections)
 
 With UDP traffic
 - Without wireguard, With different levels of parallelism was able to lcock 1Mbps, 10Mbps, 50Mbps and 105 Mbps
