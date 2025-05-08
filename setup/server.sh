@@ -29,3 +29,7 @@ sudo ip link add dev wg0 type wireguard
 sudo ip addr add dev wg0  10.0.0.1/24 dev wg0
 sudo wg set wg0 private-key ./privatekey
 sudo ip link set wg0 up
+
+sudo ip link add vxlan-demo type vxlan id 100 remote <ip1> local  <ip2> dev eth0 dstport 4789
+sudo ip addr add 11.0.0.2/24 dev vxlan-demo
+sudo ip link set vxlan-demo up

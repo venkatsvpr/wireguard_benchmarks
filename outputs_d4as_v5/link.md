@@ -1,47 +1,44 @@
 TLDR
 
 # TCP
-## 1 
+## 1 Connection
 ```
 [  5]   0.00-10.00  sec  13.9 GBytes  11.9 Gbits/sec    0             sender
 [  5]   0.00-10.00  sec  13.9 GBytes  11.9 Gbits/sec                  receiver
 ```
-## 10
+## 10 Connection
 ```
 [SUM]   0.00-10.00  sec  13.9 GBytes  11.9 Gbits/sec   10             sender
 [SUM]   0.00-10.00  sec  13.9 GBytes  11.9 Gbits/sec                  receiver
 ```
-## 50
+## 50 Connection
 ```
 [SUM]   0.00-10.01  sec  13.9 GBytes  11.9 Gbits/sec  714             sender
 [SUM]   0.00-10.01  sec  13.9 GBytes  11.9 Gbits/sec                  receiver
 ```
-## 100
+## 100 Connection
 ```
 [SUM]   0.00-10.01  sec  14.0 GBytes  12.0 Gbits/sec  14273             sender
 [SUM]   0.00-10.02  sec  13.9 GBytes  11.9 Gbits/sec                  receiver
 ```
 
 # UDP
-## 1
+## 1 Connection
 ```
 [  5]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/938 (0%)  sender
 [  5]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.004 ms  0/938 (0%)  receiver
 ```
-
-## 10
+## 10 Connection
 ```
 [SUM]   0.00-10.00  sec  12.5 MBytes  10.5 Mbits/sec  0.000 ms  0/9380 (0%)  sender
 [SUM]   0.00-10.00  sec  12.5 MBytes  10.5 Mbits/sec  0.011 ms  0/9380 (0%)  receiver
 ```
-
-## 50
+## 50 Connection
 ```
 [SUM]   0.00-10.00  sec  62.5 MBytes  52.4 Mbits/sec  0.000 ms  0/46862 (0%)  sender
 [SUM]   0.00-10.00  sec  62.5 MBytes  52.4 Mbits/sec  0.015 ms  0/46862 (0%)  receiver
 ```
-
-## 100
+## 100 Connection
 ```
 [SUM]   0.00-10.01  sec   125 MBytes   105 Mbits/sec  0.000 ms  0/93554 (0%)  sender
 [SUM]   0.00-10.01  sec   125 MBytes   105 Mbits/sec  0.013 ms  0/93554 (0%)  receiver

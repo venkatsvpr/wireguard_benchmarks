@@ -31,8 +31,10 @@ The tests include running iperf client/server on both sides and running differen
 
 While TCP, 
 - Without wireguard, we were able to acheive a bit-rate of ~12 Gbps
-- With Wireguard - the bit-rate was 2 to 2.62 Gbps (1 to 100 parallel connections)
+- With Wireguard - the bit-rate was 2 to 2.62 Gbps
+- With VXLAN - we are able to clock 6.9 Gbps, 11.5 Gbps, 11.0 Gbps, 11.5 Gbps  for 1, 10, 50, 100 Connections
 
 With UDP traffic
 - Without wireguard, With different levels of parallelism was able to lcock 1Mbps, 10Mbps, 50Mbps and 105 Mbps
 - With Wireguard, runnign the same test yielded similar results
+- With VXLAN - we clock 1 Mbs, 10.5 Mbps, 52.5 Mbps, 105 Mbps
